@@ -182,8 +182,8 @@ database/*.db
 .omx/
 
 # XPipe/ViralCrawl: runtime + config riêng của app (không thuộc thư viện)
-cache/
 _cache_artifact/
+# LƯU Ý: KHÔNG ignore `cache/` — đó là package Python của MediaCrawler
 gom_dang_bai/
 kenh_nguon/
 *.log
